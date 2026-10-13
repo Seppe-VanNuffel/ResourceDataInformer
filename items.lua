@@ -1,0 +1,158 @@
+return {
+	PlaceObj('ModItemCode', {
+		'name', "ProductionOverUnderConfig",
+		'CodeFileName', "Code/ProductionOverUnderConfig.lua",
+	}),
+	PlaceObj('ModItemCode', {
+		'name', "ResourceProductionArrows",
+		'CodeFileName', "Code/ResourceProductionArrows.lua",
+	}),
+	PlaceObj('ModItemOptionToggle', {
+		'name', "EnableArrows",
+		'DisplayName', "Show production arrows",
+		'Help', "Show production and consumption arrows in resource counters.",
+		'DefaultValue', true,
+	}),
+	PlaceObj('ModItemOptionToggle', {
+		'name', "EnableThresholdNotifications",
+		'DisplayName', "Enable threshold notifications",
+		'Help', "Show a notification when a configured resource threshold is reached.",
+		'DefaultValue', true,
+	}),
+	PlaceObj('ModItemOptionToggle', {
+		'name', "EnableMetalsNotification",
+		'DisplayName', "Notify for Metals",
+		'Help', "Enable threshold notifications for Metals.",
+	}),
+	PlaceObj('ModItemOptionToggle', {
+		'name', "UnderMetalsThreshold",
+		'DisplayName', "Metals threshold direction is under",
+		'Help', "Notify when Metals is at or under the threshold instead of reaching it.",
+	}),
+	PlaceObj('ModItemOptionNumber', {
+		'name', "MetalsThreshold",
+		'DisplayName', "Metals threshold",
+		'Help', "Stored amount at which to notify for Metals.",
+		'DefaultValue', 100,
+		'MaxValue', 1000,
+	}),
+	PlaceObj('ModItemOptionToggle', {
+		'name', "EnableConcreteNotification",
+		'DisplayName', "Notify for Concrete",
+		'Help', "Enable threshold notifications for Concrete.",
+	}),
+	PlaceObj('ModItemOptionToggle', {
+		'name', "UnderConcreteThreshold",
+		'DisplayName', "Concrete threshold direction is under",
+		'Help', "Notify when Concrete is at or under the threshold instead of reaching it.",
+	}),
+	PlaceObj('ModItemOptionNumber', {
+		'name', "ConcreteThreshold",
+		'DisplayName', "Concrete threshold",
+		'Help', "Stored amount at which to notify for Concrete.",
+		'DefaultValue', 100,
+		'MaxValue', 1000,
+	}),
+	PlaceObj('ModItemOptionToggle', {
+		'name', "EnableFoodNotification",
+		'DisplayName', "Notify for Food",
+		'Help', "Enable threshold notifications for Food.",
+	}),
+	PlaceObj('ModItemOptionToggle', {
+		'name', "UnderFoodThreshold",
+		'DisplayName', "Food threshold direction is under",
+		'Help', "Notify when Food is at or under the threshold instead of reaching it.",
+	}),
+	PlaceObj('ModItemOptionNumber', {
+		'name', "FoodThreshold",
+		'DisplayName', "Food threshold",
+		'Help', "Stored amount at which to notify for Food.",
+		'DefaultValue', 100,
+		'MaxValue', 1000,
+	}),
+	PlaceObj('ModItemOptionToggle', {
+		'name', "EnablePolymersNotification",
+		'DisplayName', "Notify for Polymers",
+		'Help', "Enable threshold notifications for Polymers.",
+	}),
+	PlaceObj('ModItemOptionToggle', {
+		'name', "UnderPolymersThreshold",
+		'DisplayName', "Polymers threshold direction is under",
+		'Help', "Notify when Polymers is at or under the threshold instead of reaching it.",
+	}),
+	PlaceObj('ModItemOptionNumber', {
+		'name', "PolymersThreshold",
+		'DisplayName', "Polymers threshold",
+		'Help', "Stored amount at which to notify for Polymers.",
+		'DefaultValue', 100,
+		'MaxValue', 1000,
+	}),
+	PlaceObj('ModItemOptionToggle', {
+		'name', "EnableMachinePartsNotification",
+		'DisplayName', "Notify for MachineParts",
+		'Help', "Enable threshold notifications for MachineParts.",
+	}),
+	PlaceObj('ModItemOptionToggle', {
+		'name', "UnderMachinePartsThreshold",
+		'DisplayName', "MachineParts threshold direction is under",
+		'Help', "Notify when MachineParts is at or under the threshold instead of reaching it.",
+	}),
+	PlaceObj('ModItemOptionNumber', {
+		'name', "MachinePartsThreshold",
+		'DisplayName', "MachineParts threshold",
+		'Help', "Stored amount at which to notify for MachineParts.",
+		'DefaultValue', 100,
+		'MaxValue', 1000,
+	}),
+	PlaceObj('ModItemOptionToggle', {
+		'name', "EnableElectronicsNotification",
+		'DisplayName', "Notify for Electronics",
+		'Help', "Enable threshold notifications for Electronics.",
+	}),
+	PlaceObj('ModItemOptionToggle', {
+		'name', "UnderElectronicsThreshold",
+		'DisplayName', "Electronics threshold direction is under",
+		'Help', "Notify when Electronics is at or under the threshold instead of reaching it.",
+	}),
+	PlaceObj('ModItemOptionNumber', {
+		'name', "ElectronicsThreshold",
+		'DisplayName', "Electronics threshold",
+		'Help', "Stored amount at which to notify for Electronics.",
+		'DefaultValue', 100,
+		'MaxValue', 1000,
+	}),
+	PlaceObj('ModItemOptionToggle', {
+		'name', "EnableRareMetalsNotification",
+		'DisplayName', "Notify for RareMetals",
+		'Help', "Enable threshold notifications for RareMetals.",
+	}),
+	PlaceObj('ModItemOptionToggle', {
+		'name', "UnderRareMetalsThreshold",
+		'DisplayName', "RareMetals threshold direction is under",
+		'Help', "Notify when RareMetals is at or under the threshold instead of reaching it.",
+	}),
+	PlaceObj('ModItemOptionNumber', {
+		'name', "RareMetalsThreshold",
+		'DisplayName', "RareMetals threshold",
+		'Help', "Stored amount at which to notify for RareMetals.",
+		'DefaultValue', 100,
+		'MaxValue', 1000,
+	}),
+	PlaceObj('ModItemOptionToggle', {
+		'name', "EnableFuelNotification",
+		'DisplayName', "Notify for Fuel",
+		'Help', "Enable threshold notifications for Fuel.",
+	}),
+	PlaceObj('ModItemOptionToggle', {
+		'name', "UnderFuelThreshold",
+		'DisplayName', "Fuel threshold direction is under",
+		'Help', "Notify when Fuel is at or under the threshold instead of reaching it.",
+	}),
+	PlaceObj('ModItemOptionNumber', {
+		'name', "FuelThreshold",
+		'DisplayName', "Fuel threshold",
+		'Help', "Stored amount at which to notify for Fuel.",
+		'DefaultValue', 100,
+		'MaxValue', 1000,
+	}),
+}
